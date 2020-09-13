@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton-framework/1.1.1/skeleton.css"
+        integrity="sha512-bkbbtvfcVjmlzyq/v4GaSiyJY3DStQhRIbJY9D0qrheR4LgSNNzrEQcdkqdJQUbuYCkLkLCj5icLxdjxRQKsJg=="
+        crossorigin="anonymous" />
+    <title>Chuck Noriss Joke Generator</title>
+</head>
+
+<body>
+    <div class="conatiner">
+        <h2>Chuck Noriss Joke Generator</h2>
+        <form id="joke-form">
+            <div>
+                <label for="number">Number Of Jokes</label>
+                <input type="number" id="number" min="1" autofocus>
+            </div>
+            <button type="submit" id="get-jokes">Get Jokes</button>
+        </form>
+        <ul class="jokes"></ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
